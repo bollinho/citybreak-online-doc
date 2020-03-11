@@ -1,6 +1,10 @@
-# Citybreak online documentaiton
+# Citybreak Online Template Page Instructions
 
-Add info here
+Citybreak Online enables customization by offering the possibility to include a template page for header and footer. The template page is provided by setting an absolute URL to an HTML page containing a placeholder element where the Citybreak Online booking engine will be injected. This gives the user ability to use their own header and footer as well as other static resources such as style sheets and JavaScripts. 
+
+A responsive template page is strongly recommended.
+
+[add image]
 
 ## Example
 
