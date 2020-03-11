@@ -1,48 +1,8 @@
 # Citybreak Online HTTPS certificate SSL information
 
-Bla bla
+We require all CB online implementations to use SSL/HTTPS Certificate.
 
-## Example
+Citybreak online has implemented Let’s Encrypt (https://letsencrypt.org/) service that enable us to easy add certificates on your sub domains including auto renewal.
 
-```html
-curl -X GET 
-  --header 'ApiKey: APIKEY132456789EWOK'
-  --header 'Accept: application/json' 
-  --header 'Accept-Language: en-US'
-  'https://example.citybreak.com/v1/example'
-```
-
-```javascript
-var r = fetch("https://example.citybreak.com/v1/example",
-{
-  headers: {
-    "ApiKey:" "APIKEY132456789EWOK",
-    "Accept": "application/json",
-	"Accept-Language": "en-US"
-  }  
-});
-```
-
-> Example of response:
-
-```json
-{
-  "Examples": [
-	"Hello World test",
-	"Ewoks are the best"
-  ]
-}
-```
-
-An example.
-
-### HTTP Request
-
-`POST https://example.citybreak.com/v1/example`
-
-### Query Parameters
-
-Parameter | Type |Description
---------- | ------ | -----------
-Accept-Language | Header | The language.
-
+We can install your own certificates as well when requestion this need to be asked for and planed. 
+That cost is paid for hour spent on communicaton and the work.
